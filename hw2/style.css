@@ -1,0 +1,31 @@
+/**{
+    margin: 0px;
+    padding: 0px;
+}*/
+
+.vremya{
+    font-style: italic;
+    width: 15%;
+    float: right;
+    background-color:gray;
+    margin: 20px;
+    padding: 20px;
+    color:white;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 42px;
+    color: green;
+    text-align: center;
+}
+
+#podzagolovok{
+    font-size: 21px;
+    color: white;
+    background-color: green;
+    padding: 20px;
+}
+
+
