@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign up GitHub</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="resources/style.css">
+</head>
+
+<body>
+    <p id="subtitle">Sign up GitHub</p>
+    <form action="" method="GET">
+        <legend class="first">FORM</legend>
+        <fieldset style="border: 0px;">
+            <div class="zero">
+                <div>
+                    <img src="resources/logo.png" alt="GitHub Icon" width="105px" heigth="105px">
+                </div>
+                <div class="input_field">
+                    <div class="input_text">First name: </div>
+                    <div class="input_">
+                        <input class="input_beautirful" type="text" maxlength="15" name="fio" required autofocus
+                            placeholder="Steve" />
+                    </div>
+                </div>
+                <div class="input_field">
+                    <div class="input_text">Last name: </div>
+                    <div class="input_">
+                        <input class="input_beautirful" type="text" maxlength="15" name="fio" required placeholder="Turner" />
+                    </div>
+                </div>
+                <div class="input_field">
+                    <div class="input_text">Country : </div>
+                    <div class="input_">
+                        <select class="input_beautirful" name="city">
+                            <optgroup label="Город">
+                                <option>Austria</option>
+                                <option>Belarus</option>
+                                <option>Canada</option>
+                                <option>China</option>
+                                <option>Denmark</option>
+                                <option>Egypt</option>
+                                <option>France</option>
+                                <option>Hawaii</option>
+                                <option>Italy</option>
+                                <option>Latvia</option>
+                                <option>Mexico</option>
+                                <option>Poland</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input_field">
+                    <div class="input_text">Phone number : </div>
+                    <div class="input_">
+                        <input class="input_beautirful" type="tel" placeholder="+37525-946-23-22" name="phone" required
+                            pattern="[+]375[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" />
+                    </div>
+                </div>
+                <div class="input_field">
+                    <div class="input_text">Email address : </div>
+                    <div class="input_">
+                        <input class="input_beautirful" required type="email" name="email" placeholder="aaa@mail.ru" />
+                    </div>
+                </div>
+                <div class="input_field">
+                    <div class="input_text">Age : </div>
+                    <div class="input_">
+                        <input class="input_beautirful" type="range" name="age" min="0" max="100" value="0" id="ageInputId"
+                            oninput="ageOutputId.value = ageInputId.value" />
+                        <output name="ageOutput" id="ageOutputId"></output>
+                    </div>
+                </div>
+                <div class="input_field">
+                    <div class="input_">Sex: </div>
+                    <div class="input_field">
+                        <div class="input_">
+                            <label>
+                                <input type="radio" name="gender" />Man
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" />Women
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input_field">
+                    <div class="input_text">About me : </div>
+                    <div class="input_">
+                        <textarea class="input_beautirful" name="message" placeholder="I..."></textarea>
+                    </div>
+                </div>
+                <div class="second">
+                    Please upload a photo:<br> <img src="resources/foto.png" alt="foto icon" width="160px" height="90px">
+                </div>
+                <input type="file" accept="image/*">
+                <div class="input_field">
+                        <div class="input_text">Password: </div>
+                        <div class="input_">
+                            <input class="input_beautirful" required type="password" name="password" placeholder="**********" />
+                        </div>
+                    </div>
+                <label><input type="checkbox" name="confirm" /> Сonfirmation</label>
+                <div class="input_field">
+                    <div class="input_">
+                        <input class="third" type="submit" value="Submit">
+                    </div>
+                    <div class="input_">
+                        <input class="third" type="reset" value="Reset">
+                    </div>
+                </div>
+
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
